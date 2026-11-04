@@ -7,7 +7,7 @@ Terraform module that manages OCI Container Registry (OCIR) repositories.
 ```hcl
 module "ocir" {
   source  = "blissflow-tech/container-repository/oci"
-  version = "~> 1.0"
+  version = "~> 1.1"
 
   global_compartment_id = var.compartment_id
 
